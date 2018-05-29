@@ -141,8 +141,8 @@
 	}
 	.about ul.our-links li .detail p {
 		display: block;
-		    margin: 0;
-    padding: 0;
+		margin: 0;
+		padding: 0;
 	}
 	.about ul.our-links li .detail a.more {
 		left: 0;
@@ -158,7 +158,7 @@
 		font-size: 14px;
 		line-height: 24px;
 	}
-		.sub-head.sub-ban {
+	.sub-head.sub-ban {
 		width: 90% !important;
 	}
 	footer .col-md-8 {
@@ -183,8 +183,8 @@
 		margin-top: 80px;
 	}
 	.inner-ban h3 {
-		font-size: 40px;
-		line-height: 45px;
+		font-size: 24px;
+		line-height: 25px;
 	}
 	.inner-content {
 		min-height: 300px;
@@ -193,7 +193,13 @@
 		display: none;
 	}
 	.about ul.our-links li {
-    height: auto !important;
-        padding: 15px 20px 15px;
+		height: auto !important;
+		padding: 15px 20px 15px;
+	}
+	#office {
+    width: 100%;
+}
+.center-list tr td {
+    padding: 10px 6px;
 }
 }
