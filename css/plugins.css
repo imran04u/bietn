@@ -5,7 +5,8 @@
     top: 43px;
     right: 20px;
     margin-left: 15px;
-    width: 20px;
+       width: 22px;
+    height: 22px;
 }
 #burgernav span {
     position: absolute;
@@ -25,9 +26,12 @@
     opacity: 1;
     width: 25px;
     height: 3px;
-    background-color:#fff;}
+    background-color:#383838;}
+    #menu > ul > li > a {
+        display: none;
+    }
     header.header-fixed  #burgernav {
-           top: 34px;
+           top: 25px;
     }
     header.header-fixed  #burgernav span {
         background-color:#bf1e2e;
@@ -245,7 +249,8 @@
         overflow: hidden
     }
     .mm-navbar .mm-btn:first-child {
-        left: 0
+        left: 0;
+        top: 0;
     }
     .mm-navbar .mm-btn:last-child {
         text-align: right;
@@ -275,7 +280,7 @@
         position: relative
     }
     .mm-listview>li, .mm-listview>li .mm-next, .mm-listview>li .mm-next:before, .mm-listview>li:after {
-        border-color: inherit
+        border-color: #616161
     }
     .mm-listview>li>a, .mm-listview>li>span {
         text-overflow: ellipsis;

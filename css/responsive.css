@@ -29,6 +29,7 @@
 		border-right: none;
 	}
 	#menu > ul > li > a {
+		display: block;
 		font-size: 14px;
 		color: #000;
 		display: block;
@@ -67,4 +68,123 @@
 		color: #666;
 		font-weight: 400;
 	} 
+}
+
+@media screen and (max-width: 1199px) {
+	#menu > ul > li > a {
+		padding: 0px 5px !important;
+	}
+	.sub-ban h2 {
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.about ul.our-links li .detail h3 {
+		font-size: 18px;
+	}
+	.abt-blk .col-md-5 img {
+		width: 100%;
+	}
+	footer .footer-address .emergency-number h4 {
+		font-size: 20px;
+	}
+	footer .footer-address {
+		padding: 20px 30px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.header-middle .contact .hidden-xs {
+		display: none;
+	}
+	.header-middle .contact {
+		padding: 30px 0 0 0;
+	}
+	.about ul.our-links li .detail p {
+		display: none;
+	}
+	.about ul.our-links li {
+		height: 135px !important
+	}
+	.sub-head.sub-ban {
+		width: 60% !important;
+	}
+	.abt-blk .col-md-5 img {
+		width: 100%;
+		margin: 20px 0;
+		max-width: 450px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.header-middle a.login {
+		margin-right: 40px;
+		padding: 5px 10px;
+	}
+	header .col-xs-6.col-sm-3 {
+		width: 40%;
+	}
+	header .col-xs-6.col-sm-9 {
+		width: 60%;
+	}
+	header {
+		height: 80px;
+	}
+	.banner-section {
+		padding-top: 80px;
+	}
+	#burgernav {
+		top: 35px;
+	}
+	.header-middle .contact {
+		padding: 25px 0 0 0;
+	}
+	.about ul.our-links {
+		margin: 0;
+	}
+	.about ul.our-links li .detail p {
+		display: block;
+	}
+	.about ul.our-links li .detail a.more {
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 0;
+		opacity: 0;
+	}
+	.sub-ban h2 {
+		padding-top: 10px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+	footer .col-md-8 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.footernav {
+		display: none;
+	}
+	.footerbtm .powered {
+		float: left;
+		padding: 6px 0;
+	}
+	.homevideo .col-md-6 iframe {
+		display: block;
+		height: auto !important;
+	}
+	.abt-blk {
+		margin: 30px 0;
+	}
+	.inner-ban {
+		margin-top: 80px;
+	}
+	.inner-ban h3 {
+		font-size: 40px;
+		line-height: 45px;
+	}
+	.inner-content {
+		min-height: 300px;
+	}
+	.ls-bottom-nav-wrapper {
+		display: none;
+	}
 }
