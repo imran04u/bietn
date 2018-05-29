@@ -141,6 +141,8 @@
 	}
 	.about ul.our-links li .detail p {
 		display: block;
+		    margin: 0;
+    padding: 0;
 	}
 	.about ul.our-links li .detail a.more {
 		left: 0;
@@ -155,6 +157,9 @@
 		padding-top: 10px;
 		font-size: 14px;
 		line-height: 24px;
+	}
+		.sub-head.sub-ban {
+		width: 90% !important;
 	}
 	footer .col-md-8 {
 		padding-top: 20px;
@@ -187,4 +192,8 @@
 	.ls-bottom-nav-wrapper {
 		display: none;
 	}
+	.about ul.our-links li {
+    height: auto !important;
+        padding: 15px 20px 15px;
+}
 }
