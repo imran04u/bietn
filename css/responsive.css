@@ -197,9 +197,12 @@
 		padding: 15px 20px 15px;
 	}
 	#office {
-    width: 100%;
-}
-.center-list tr td {
-    padding: 10px 6px;
-}
+		width: 100%;
+	}
+	.center-list tr td {
+		padding: 10px 6px;
+	}
+	footer .footer-address {
+		display: none;
+	}
 }
